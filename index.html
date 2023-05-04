@@ -5,7 +5,7 @@
 
     <title>Calculadora de caja</title>
     <link rel="stylesheet" href="style.css">
-    <script>
+ <script>
       function caja() {
         let g = parseInt(document.getElementById("gastos").value);
         let d = parseInt(document.getElementById("depositos").value);
@@ -13,8 +13,9 @@
         let e = parseInt(document.getElementById("efectivo").value);
         let v = parseInt(document.getElementById("vauchers").value);
         let hotel = parseInt(document.getElementById("hotel").value);
+        let comandas = parseInt(document.getElementById("comandas").value);
         let x = (g + d + r + e + v);
-        let totalHotel = (hotel + 1500);
+        let totalHotel = (hotel + 1500+comandas);
         if (x == totalHotel) {
           alert("¡Tu caja está completa!😨");
         } else {
@@ -26,7 +27,7 @@
   </head>
 
   <body>
-    <img id="logo" src="https://hotelstarmanzanillo.com/wp-content/uploads/2019/10/Logo-Hotel-Star-Manzanillo-h.png" height=300px; width=600px;>
+    <img id="logo" src="https://hotelstarmanzanillo.com/wp-content/uploads/2019/10/Logo-Hotel-Star-Manzanillo-h.png" height=300px; width=800px;>
     <h1>Corte de turno</h1>
     <p>
       Introduzca los valores que obtuvo a lo largo del turno, posteriormente ingrese la cantidad que se encuentre en sus sistema MK-FRONT, puede sumarla desde su reporte de turno
@@ -47,13 +48,19 @@
     <label for="vauchers">Vauchers</label>
     <input type="number" id="vauchers"><br>
 
+    <label for="comandas">Comandas:</label>
+    <input type="number" id="comandas"><br>
+    
     <label for="hotel">Total de hotel:</label>
     <input type="number" id="hotel"><br>
+    
+  
 
     <button onclick="caja()">Calcular</button>
     <button onclick="location.reload()">Limpiar</button>
-
-    <img src="https://images.trvl-media.com/lodging/2000000/1780000/1775000/1774916/6d43bfc7.jpg?impolicy=resizecrop&rw=500&ra=fit">
+<center>
+    <img src="https://images.trvl-media.com/lodging/2000000/1780000/1775000/1774916/6d43bfc7.jpg?impolicy=resizecrop&rw=500&ra=fit" alt="image" center>
+    </center>
 
 
   </body>
