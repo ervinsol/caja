@@ -1,0 +1,68 @@
+body {
+			background-color: ; /* Color de fondo azul claro */
+			font-family: Arial, sans-serif; /* Fuente del texto */
+		}
+		
+    #logo{
+     border-color: white;
+     color: darkblue;
+   
+    }
+    
+    h1 {
+			font-style:italic;
+      color: darkblue;/* Color del texto blanco */
+			text-align: center; /* Centrar el texto */
+			 /* Sombra en el texto */
+			margin-top: 50px; /* Espacio superior */
+	    }
+      
+     p{
+        font-style: italic;
+        color: darkblue;
+       
+      }
+		form {
+			width: 300px; /* Ancho del formulario */
+			margin: 0 auto; /* Centrar el formulario */
+			background-color: #ffffff; /* Color de fondo blanco */
+			padding: 20px; /* Espacio interior */
+			border-radius: 10px; /* Bordes redondeados */
+			box-shadow: 5px 5px 5px #222222; /* Sombra en el formulario */
+			margin-top: 50px; /* Espacio superior */
+			text-align: center; /* Centrar el contenido del formulario */
+		}
+		label {
+			
+      display: block;/* Mostrar cada etiqueta en una línea separada */
+			margin-bottom: 10px; /* Espacio inferior */
+			color: #333333; /* Color del texto gris oscuro */
+			text-align: left; /* Alinear el texto a la izquierda */
+		}
+		input[type="number"] {
+			padding: 10px; /* Espacio interior */
+			border-radius: 5px; /* Bordes redondeados */
+			border: none; /* Sin borde */
+			background-color: #eeeeee; /* Color de fondo gris claro */
+			margin-bottom: 20px; /* Espacio inferior */
+		}
+		button {
+			padding: 10px 20px; /* Espacio interior */
+			border-radius: 5px; /* Bordes redondeados */
+			border: none; /* Sin borde */
+			background-color: #3f6fff; /* Color de fondo azul */
+			color: #ffffff; /* Color del texto blanco */
+			margin-right: 10px; /* Espacio derecho */
+			cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+		}
+		button:hover {
+			background-color: #2246af; /* Color de fondo azul oscuro al pasar sobre el botón */
+		}
+		button:last-of-type {
+			margin-right: 0; /* Sin espacio derecho para el último botón */
+		}
+    img{
+    border-radius: 100px;
+    border-style:double;
+    border-color: white;
+}
