@@ -1,3 +1,4 @@
+
 body {
 			background-color: ; /* Color de fondo azul claro */
 			font-family: Arial, sans-serif; /* Fuente del texto */
@@ -18,12 +19,15 @@ body {
 	    }
       
      p{
-        font-style: italic;
+        font-size: 30px;
+        font-family: sans-serif;
         color: darkblue;
+  
        
       }
 		form {
-			width: 300px; /* Ancho del formulario */
+ 			
+                                   width: 300px; /* Ancho del formulario */
 			margin: 0 auto; /* Centrar el formulario */
 			background-color: #ffffff; /* Color de fondo blanco */
 			padding: 20px; /* Espacio interior */
@@ -40,7 +44,9 @@ body {
 			text-align: left; /* Alinear el texto a la izquierda */
 		}
 		input[type="number"] {
-			padding: 10px; /* Espacio interior */
+			 
+                                   
+                                    padding: 10px; /* Espacio interior */
 			border-radius: 5px; /* Bordes redondeados */
 			border: none; /* Sin borde */
 			background-color: #eeeeee; /* Color de fondo gris claro */
@@ -50,7 +56,7 @@ body {
 			padding: 10px 20px; /* Espacio interior */
 			border-radius: 5px; /* Bordes redondeados */
 			border: none; /* Sin borde */
-			background-color: #3f6fff; /* Color de fondo azul */
+			background-color: darkblue; /* Color de fondo azul */
 			color: #ffffff; /* Color del texto blanco */
 			margin-right: 10px; /* Espacio derecho */
 			cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
