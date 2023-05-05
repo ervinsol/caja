@@ -3,7 +3,7 @@
 
   <head>
 
-    <title>Calculadora de caja</title>
+    <title>Corte de turno💫</title>
     <link rel="stylesheet" href="style.css">
  <script>
       function caja() {
@@ -15,6 +15,8 @@
         let hotel = parseInt(document.getElementById("hotel").value);
         let comandas = parseInt(document.getElementById("comandas").value);
         let x = (g + d + r + e + v);
+       document.getElementById("este").innerHTML = "El resultado es: " + x;
+       
         let totalHotel = (hotel + 1500+comandas);
         if (x == totalHotel) {
           alert("¡Tu caja está completa!😨");
@@ -27,42 +29,45 @@
   </head>
 
   <body>
-    <img id="logo" src="https://hotelstarmanzanillo.com/wp-content/uploads/2019/10/Logo-Hotel-Star-Manzanillo-h.png" height=300px; width=800px;>
-    <h1>Corte de turno</h1>
+    <img id="logo" src="https://hotelstarmanzanillo.com/wp-content/uploads/2019/10/Logo-Hotel-Star-Manzanillo-h.png" height=300px; width=1700px;>
+    <h1>⭐⭐Corte de turno⭐⭐</h1>
     <p>
-      Introduzca los valores que obtuvo a lo largo del turno, posteriormente ingrese la cantidad que se encuentre en sus sistema MK-FRONT, puede sumarla desde su reporte de turno
+      Introduzca los valores que obtuvo a lo largo del turno, posteriormente ingrese la cantidad que se encuentre en sus sistema MK-FRONT(Hotel), puede sumarla desde su reporte de turno.
     </p>
 
-    <label for="gastos">Gastos:</label>
+    <label for="gastos"style="font-family:fantasy; color:darkblue;font-size:30px;">Gastos🤑</label>
     <input type="number" id="gastos"><br>
 
-    <label for="depositos">Depósitos</label>
+    <label for="depositos" style="font-family: fantasy; color:darkblue;font-size:30px;">Depósitos👀</label>
     <input type="number" id="depositos"><br>
 
-    <label for="retiros">Retiros</label>
+    <label for="retiros"style="font-family: fantasy; color:darkblue;font-size:30px;">Retiros🌞</label>
     <input type="number" id="retiros"><br>
 
-    <label for="efectivo">Efectivo:</label>
+    <label for="efectivo"style="font-family: fantasy; color:darkblue;font-size:30px;">Efectivo🎱</label>
     <input type="number" id="efectivo"><br>
 
-    <label for="vauchers">Vauchers</label>
+    <label for="vauchers"style="font-family: fantasy; color:darkblue;font-size:30px;">Vauchers🥊</label>
     <input type="number" id="vauchers"><br>
 
-    <label for="comandas">Comandas:</label>
+    <label for="comandas"style="font-family: fantasy; color:darkblue;font-size:30px;">Comandas💲</label>
     <input type="number" id="comandas"><br>
     
-    <label for="hotel">Total de hotel:</label>
+    <label for="hotel"style="font-family: fantasy; color;darkblue;font-size:30px;">Total de hotel💲💲💲</label>
     <input type="number" id="hotel"><br>
     
   
 
+ 
     <button onclick="caja()">Calcular</button>
     <button onclick="location.reload()">Limpiar</button>
+   <div id="este"></div>
 <center>
-    <img src="https://images.trvl-media.com/lodging/2000000/1780000/1775000/1774916/6d43bfc7.jpg?impolicy=resizecrop&rw=500&ra=fit" alt="image" center>
+    <img src="https://hotelstarmanzanillo.com/wp-content/uploads/2019/10/Logo-Hotel-Star-Manzanillo-h.png" height=300px; width=1700px;>
     </center>
 
 
   </body>
 
 </html>
+
